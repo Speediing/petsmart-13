@@ -26,9 +26,7 @@ export default function Page() {
           <div className="grid grid-cols-2  w-[1080px]">
             <div />
             <div className="flex flex-col justify-center">
-              <h2
-                className={`pb-2  leading-tight font-serif text-5xl  font-bold `}
-              >
+              <h2 className={`pb-2  leading-tight text-5xl  font-bold `}>
                 It’s National Slow Cooking Month!
               </h2>
               <h3 className="text-xl font-normal">
@@ -43,7 +41,7 @@ export default function Page() {
       </div>
       <div className="flex flex-col my-12">
         <h2
-          className={`pb-2 leading-tight align-middle text-center font-serif text-3xl  font-bold `}
+          className={`pb-2 leading-tight align-middle text-center text-3xl  font-bold `}
         >
           Find Your Next Crockpot® Product
         </h2>
@@ -59,7 +57,7 @@ export default function Page() {
               }
             />
             <p
-              className={`pb-2 leading-tight align-middle text-center mt-12 font-serif text-2xl  font-bold `}
+              className={`pb-2 leading-tight align-middle text-center mt-12 ftext-2xl  font-bold `}
             >
               Slow Cookers
             </p>
@@ -84,7 +82,7 @@ export default function Page() {
               }
             />
             <p
-              className={`pb-2  leading-tight align-middle text-center mt-12 font-serif text-2xl  font-bold `}
+              className={`pb-2  leading-tight align-middle text-center mt-12  text-2xl  font-bold `}
             >
               Lunch Crock®
             </p>

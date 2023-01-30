@@ -22,7 +22,7 @@ export default function RootLayout({ children }: any) {
   return (
     <html lang="en">
       <head />
-      <body className={`${roboto.className} font-sans  text-[#102641]`}>
+      <body className={`${roboto.className}   text-[#102641]`}>
         <div className="flex flex-row justify-center px-52 border-b border-b-[#dee1ec]">
           <div className="flex flex-row justify-between  min-h-[24px]  w-full max-w-6xl">
             <div className="flex flex-row justify-between gap-4">
