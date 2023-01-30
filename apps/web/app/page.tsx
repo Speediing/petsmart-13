@@ -10,28 +10,25 @@ export const revalidate = 0;
 
 export default function Page() {
   return (
-    <div>
+    <div className="max-[1240px]">
       {/* @ts-expect-error Server Component */}
       <InfoHeader />
-
-      <div className="relative">
-        <Image
-          unoptimized
-          alt=""
-          src="https://s7d9.scene7.com/is/content/NewellRubbermaid/2023_Crock-Pot_January_ContentCalendar_HPBanner1_Desktop_3840x1200?fmt=gif&amp;wid=2880"
-          layout="fill"
-          objectFit="cover"
-        />
-        <div className="relative flex flex-row justify-center text-black h-[500px] ">
-          <div className="grid grid-cols-2  w-[1080px]">
-            <div />
-            <div className="flex flex-col justify-center">
-              <h2 className={`pb-2  leading-tight text-5xl  font-bold `}>
-                It’s National Slow Cooking Month!
+      <div className="flex flex-row justify-center ">
+        <div className="relative h-full  max-h-[400px] w-full max-w-[1240px]">
+          <Image
+            unoptimized
+            alt=""
+            src="https://s7d2.scene7.com/is/image/PetSmart/WEB-23-1658608-CA_February_WELLNESS_DENTAL_slider_1240x400_DT"
+            layout={"fill"}
+            className="max-w-[1240px]"
+          />
+          <div className="relative flex flex-row justify-center h-[400px] text-white w-full h-full text-center  ">
+            <div className="flex flex-col justify-center max-w-[400px]">
+              <h2 className={`pb-2  leading-tight text-[40px]  font-bold `}>
+                It’s Dental Wellness Month!
               </h2>
-              <h3 className="text-xl font-normal">
-                Ease into the New Year with classic, comforting slow-cooked
-                meals you and your family will love.
+              <h3 className="text-base font-normal">
+                Shop our monthlong dental offers
               </h3>
               {/* @ts-expect-error Server Component */}
               <ButtonArray />

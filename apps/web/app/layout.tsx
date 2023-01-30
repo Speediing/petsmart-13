@@ -124,7 +124,7 @@ export default function RootLayout({ children }: any) {
             </div>
           </div>
         </header>
-        <div className="flex flex-row text-sm justify-center min-h-[54px] px-10 gap-14  text-xl text-white font-normal bg-[#007db1]">
+        <div className="flex flex-row  justify-center min-h-[54px] px-10 gap-14  text-xl text-white font-normal bg-[#007db1]">
           <div className="flex flex-col justify-center cursor-pointer">
             shop by brand
           </div>
