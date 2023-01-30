@@ -49,7 +49,7 @@ export default async function OG() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs2JyBdJOBxJHZlq18AQIx50X-Y9pqGYYZrQ&usqp=CAU"
               />
             </div>
-            <h2 tw="text-3xl pt-6 font-thin">PetSmart</h2>
+            <h2 tw="text-3xl  font-thin">PetSmart</h2>
             <h2 style={{ fontFamily: "RobotoBold" }} tw=" text-6xl font-bold">
               It’s Dental Wellness Month!
             </h2>
