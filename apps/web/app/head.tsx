@@ -5,7 +5,7 @@ export default function Head() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         property="og:title"
-        content="Pet Supplies, Accessories and Products Online | PetSmartr"
+        content="Pet Supplies, Accessories and Products Online | PetSmart"
       />
       <meta
         property="og:description"
