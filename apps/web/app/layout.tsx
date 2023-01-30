@@ -132,9 +132,6 @@ export default function RootLayout({ children }: any) {
             shop by pet
           </div>
           <div className="flex flex-col justify-center cursor-pointer">
-            Collections
-          </div>
-          <div className="flex flex-col justify-center cursor-pointer">
             pet services
           </div>
           <div className="flex flex-col justify-center cursor-pointer">
