@@ -55,7 +55,6 @@ export default function RootLayout({ children }: any) {
           <div className="flex flex-row justify-between  h-full text-sm text-[#102641] w-full max-w-6xl ">
             <div className="flex flex-col justify-center h-full align-middle">
               <Image
-                unoptimized
                 src="https://www.petsmart.ca/on/demandware.static/Sites-PetSmart_CA-Site/-/default/dw0e91e254/images/petsmart-logo.png"
                 height={40}
                 width={160}
@@ -84,7 +83,6 @@ export default function RootLayout({ children }: any) {
                 <Image
                   className="w-[45px] h-[30px]"
                   alt={""}
-                  unoptimized
                   width={45}
                   height={30}
                   src={
