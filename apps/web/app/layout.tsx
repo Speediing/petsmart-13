@@ -58,7 +58,7 @@ export default function RootLayout({ children }: any) {
           </div>
         </div>
         <header className="font-light border-b border-gray-200 h-[76px] bg-white flex flex-row justify-center w-full">
-          <div className="flex flex-row justify-between  h-full text-sm text-[#102641] gap-32 max-w-6xl ">
+          <div className="flex flex-row justify-between  h-full text-sm text-[#102641] w-full max-w-6xl ">
             <div className="flex flex-col justify-center h-full align-middle">
               <Image
                 unoptimized
@@ -74,7 +74,7 @@ export default function RootLayout({ children }: any) {
                   type="text"
                   name="account-number"
                   id="account-number"
-                  className="block w-[400px] placeholder-[#007db1] h-full pr-10 border-[#007db1]  rounded-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                  className="block w-[496px] placeholder-[#007db1] h-full pr-10 border-[#007db1]  rounded-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   placeholder="Search"
                 />
                 <div className="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
