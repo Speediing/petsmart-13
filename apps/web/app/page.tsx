@@ -55,7 +55,7 @@ export default function Page() {
                 }
               />
               <p
-                className={`pb-2 leading-tight align-middle text-center mt-1 text-[17px] font-medium `}
+                className={`pb-2 leading-tight align-middle text-center mt-1 text-[17px]  `}
               >
                 Shop all Dog Dental Care
               </p>
@@ -73,7 +73,7 @@ export default function Page() {
                 }
               />
               <p
-                className={`pb-2  leading-tight align-middle text-center mt-1  text-[17px] font-medium `}
+                className={`pb-2  leading-tight align-middle text-center mt-1  text-[17px]`}
               >
                 Shop all Cat Dental Care
               </p>
