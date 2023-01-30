@@ -9,13 +9,13 @@ export default function Head() {
       />
       <meta
         property="og:description"
-        content="Get the very best pet supplies online and in store! PetSmart offers quality products and accessories for a healthier, happier pet. Find in-store pet services like Grooming, Training, Doggie Day Care, and overnight boarding!"
+        content="Get the best pet supplies online and in store! PetSmart offers quality products and accessories for a healthier, happier pet. Find in-store pet services like Grooming, Training, Doggie Day Care, and overnight boarding!"
       />
       <meta property="og:image" content="/api/og" />
 
       <link
         rel="shortcut icon"
-        href="https://www.petsmart.ca/on/demandware.static/Sites-PetSmart_CA-Site/-/default/dw6ef417c2/images/favicon-petsmart.icog"
+        href="https://www.petsmart.ca/on/demandware.static/Sites-PetSmart_CA-Site/-/default/dw6ef417c2/images/favicon-petsmart.ico"
       />
     </>
   );
