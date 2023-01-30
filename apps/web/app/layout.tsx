@@ -29,34 +29,36 @@ export default function RootLayout({ children }: any) {
     <html lang="en">
       <head />
       <body className={`${roboto.className} font-sans  text-[#102641]`}>
-        <div className="flex flex-row justify-between px-52 min-h-[24px] border-b border-b-[#dee1ec]">
-          <div className="flex flex-row justify-between gap-4">
-            <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
-              enable accessibility
+        <div className="flex flex-row justify-center px-52 border-b border-b-[#dee1ec]">
+          <div className="flex flex-row justify-between  min-h-[24px]  w-full max-w-6xl">
+            <div className="flex flex-row justify-between gap-4">
+              <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
+                enable accessibility
+              </div>
+              <div className="flex flex-col justify-center = cursor-pointer">
+                |
+              </div>
+              <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
+                gift card
+              </div>
+              <div className="flex flex-col justify-center = cursor-pointer">
+                |
+              </div>
+              <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
+                flyer
+              </div>
+              <div className="flex flex-col justify-center= cursor-pointer">
+                |
+              </div>
+              <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
+                track your order
+              </div>
             </div>
-            <div className="flex flex-col justify-center = cursor-pointer">
-              |
-            </div>
-            <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
-              gift card
-            </div>
-            <div className="flex flex-col justify-center = cursor-pointer">
-              |
-            </div>
-            <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
-              flyer
-            </div>
-            <div className="flex flex-col justify-center= cursor-pointer">
-              |
-            </div>
-            <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
-              track your order
-            </div>
+            <p>sign up, earn points, get treats</p>
           </div>
-          <p>sign up, earn points, get treats</p>
         </div>
-        <header className="font-light border-b border-gray-200 h-[76px] bg-white">
-          <div className="flex flex-row justify-between mx-36 xl:text-base h-full text-sm text-[#102641] gap-6">
+        <header className="font-light border-b border-gray-200 h-[76px] bg-white flex flex-row justify-center w-full">
+          <div className="flex flex-row justify-between  h-full text-sm text-[#102641] gap-32 max-w-6xl ">
             <div className="flex flex-col justify-center h-full align-middle">
               <Image
                 unoptimized
@@ -83,7 +85,7 @@ export default function RootLayout({ children }: any) {
                 </div>
               </div>
             </div>
-            <div className="flex flex-row">
+            <div className="flex flex-row gap-4">
               <div className="flex flex-col justify-center">
                 <Image
                   className="w-[45px] h-[30px]"
@@ -96,12 +98,14 @@ export default function RootLayout({ children }: any) {
                   }
                 />
               </div>
-              <div>
+              <div className="flex flex-col justify-center">
                 <div className="flex flex-row gap-2 font-bold">
-                  <p>sign-in</p>
-                  <ChevronDownIcon className="w-5 h-5" aria-hidden="true" />
+                  <p className="text-lg font-bold">sign-in</p>
+                  <div className="flex flex-col justify-center">
+                    <ChevronDownIcon className="w-5 h-5" aria-hidden="true" />
+                  </div>
                 </div>
-                <p>Treats & Account</p>
+                <p className="text-sm">Treats & Account</p>
               </div>
             </div>
             <div className="flex flex-col justify-center">
@@ -155,7 +159,7 @@ export default function RootLayout({ children }: any) {
         </div>
         <AnalyticsWrapper />
         <div>{children}</div>
-        <footer className="py-20 bg-[#f4f5f8] px-32 xl:px-44 text-black">
+        <footer className="py-20 bg-[#f4f5f8] px-32  text-black">
           <img
             src="https://www.crock-pot.com/on/demandware.static/Sites-crockpot-Site/-/default/dw61095556/images/brand-logo.svg"
             width="164"
