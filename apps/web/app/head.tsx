@@ -15,7 +15,7 @@ export default function Head() {
 
       <link
         rel="shortcut icon"
-        href="https://www.petsmart.ca/on/demandware.static/Sites-PetSmart_CA-Site/-/default/dw6ef417c2/images/favicon-petsmart.icog"
+        href="https://www.petsmart.ca/on/demandware.static/Sites-PetSmart_CA-Site/-/default/dw6ef417c2/images/favicon-petsmart.ico"
       />
     </>
   );
