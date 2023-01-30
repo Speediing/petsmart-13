@@ -12,7 +12,7 @@ export default function Head() {
 
       <link
         rel="shortcut icon"
-        href="https://www.crock-pot.com/on/demandware.static/Sites-crockpot-Site/-/default/dwa972afba/images/favicons/favicon-32x32.png"
+        href="https://www.petsmart.ca/on/demandware.static/Sites-PetSmart_CA-Site/-/default/dw6ef417c2/images/favicon-petsmart.icog"
       />
     </>
   );
