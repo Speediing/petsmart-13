@@ -16,12 +16,6 @@ const roboto = Arimo({
   variable: "--font-roboto",
 });
 
-const halant = Halant({
-  weight: ["400", "700", "500"],
-  subsets: ["latin"],
-  variable: "--font-halant",
-});
-
 export default function RootLayout({ children }: any) {
   const headersList = headers();
   const ip = headersList.get("x-real-ip");
