@@ -1,12 +1,15 @@
 export default function Head() {
   return (
     <>
-      <title>Crockpot: The Original Slow Cooker</title>
+      <title>Pet Supplies, Accessories and Products Online | PetSmart</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta property="og:title" content="Crockpot: The Original Slow Cooker" />
+      <meta
+        property="og:title"
+        content="Pet Supplies, Accessories and Products Online | PetSmart"
+      />
       <meta
         property="og:description"
-        content="Crockpot is a leading producer of slow cookers, pressure cookers, and multi-cookers that make it easy to create and share delicious home-cooked meals."
+        content="Get the best pet supplies online and in store! PetSmart offers quality products and accessories for a healthier, happier pet. Find in-store pet services like Grooming, Training, Doggie Day Care, and overnight boarding!"
       />
       <meta property="og:image" content="/api/og" />
 

@@ -16,21 +16,15 @@ const roboto = Arimo({
   variable: "--font-roboto",
 });
 
-const halant = Halant({
-  weight: ["400", "700", "500"],
-  subsets: ["latin"],
-  variable: "--font-halant",
-});
-
 export default function RootLayout({ children }: any) {
   const headersList = headers();
   const ip = headersList.get("x-real-ip");
   return (
     <html lang="en">
       <head />
-      <body className={`${roboto.className} font-sans  text-[#102641]`}>
+      <body className={`${roboto.className} text-[#102641]`}>
         <div className="flex flex-row justify-center px-52 border-b border-b-[#dee1ec]">
-          <div className="flex flex-row justify-between  min-h-[24px]  w-full max-w-6xl">
+          <div className="flex flex-row justify-between  min-h-[24px]  w-full max-w-4xl">
             <div className="flex flex-row justify-between gap-4">
               <div className="flex flex-col justify-center cursor-pointer text-[#007db1]">
                 enable accessibility
@@ -130,15 +124,12 @@ export default function RootLayout({ children }: any) {
             </div>
           </div>
         </header>
-        <div className="flex flex-row text-sm justify-center min-h-[54px] px-10 gap-14  text-xl text-white font-normal bg-[#007db1]">
+        <div className="flex flex-row  justify-center min-h-[54px] px-10 gap-14  text-xl text-white font-normal bg-[#007db1]">
           <div className="flex flex-col justify-center cursor-pointer">
             shop by brand
           </div>
           <div className="flex flex-col justify-center cursor-pointer">
             shop by pet
-          </div>
-          <div className="flex flex-col justify-center cursor-pointer">
-            Collections
           </div>
           <div className="flex flex-col justify-center cursor-pointer">
             pet services
@@ -161,7 +152,7 @@ export default function RootLayout({ children }: any) {
         <div>{children}</div>
         <footer className="py-20 bg-[#f4f5f8] px-32  text-black">
           <img
-            src="https://www.crock-pot.com/on/demandware.static/Sites-crockpot-Site/-/default/dw61095556/images/brand-logo.svg"
+            src="https://www.petsmart.ca/on/demandware.static/Sites-PetSmart_CA-Site/-/default/dw0e91e254/images/petsmart-logo.png"
             width="164"
             height="37"
             alt="intuit"

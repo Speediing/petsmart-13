@@ -19,7 +19,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-roboto)"],
-        serif: ["var(--font-halant)"],
+        serif: ["var(--font-Karla)"],
       },
     },
   },
