@@ -4,13 +4,17 @@ import ButtonArray from "./ButtonArray";
 import InfoHeader from "./InfoHeader";
 import left from "./leftimg.png";
 import right from "./rightimg.png";
-
+import { Karla } from "@next/font/google";
 export const runtime = "experimental-edge";
 export const revalidate = 0;
-
+const roboto = Karla({
+  weight: ["400", "500", "700", "600", "800"],
+  subsets: ["latin"],
+  variable: "--font-karla",
+});
 export default function Page() {
   return (
-    <div className="w-full max-[1240px]">
+    <div className={`w-full max-[1240px] ${roboto.className}`}>
       {/* @ts-expect-error Server Component */}
       <InfoHeader />
       <div className="flex flex-row justify-center ">
@@ -24,7 +28,7 @@ export default function Page() {
           />
           <div className="relative flex flex-row justify-center h-[400px] text-white w-full h-full text-center  ">
             <div className="flex flex-col justify-center max-w-[400px]">
-              <h2 className={`pb-2  leading-tight text-[40px]  font-bold `}>
+              <h2 className={`pb-2  leading-tight text-[40px]  font-black `}>
                 It’s Dental Wellness Month!
               </h2>
               <h3 className="text-base font-normal">

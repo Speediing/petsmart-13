@@ -19,6 +19,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-roboto)"],
+        serif: ["var(--font-karla)"],
       },
     },
   },
