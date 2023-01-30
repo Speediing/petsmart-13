@@ -9,7 +9,7 @@ export default function Head() {
       />
       <meta
         property="og:description"
-        content="Get the best pet supplies online and in store! PetSmart offers quality products and accessories for a healthier, happier pet. Find in-store pet services like Grooming, Training, Doggie Day Care, and overnight boarding!"
+        content="Get the very best pet supplies online and in store! PetSmart offers quality products and accessories for a healthier, happier pet. Find in-store pet services like Grooming, Training, Doggie Day Care, and overnight boarding!"
       />
       <meta property="og:image" content="/api/og" />
 

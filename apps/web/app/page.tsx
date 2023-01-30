@@ -20,7 +20,6 @@ export default function Page() {
       <div className="flex flex-row justify-center ">
         <div className="relative h-full  max-h-[400px] w-full max-w-[1240px]">
           <Image
-            unoptimized
             alt=""
             src="https://s7d2.scene7.com/is/image/PetSmart/WEB-23-1658608-CA_February_WELLNESS_DENTAL_slider_1240x400_DT"
             layout={"fill"}
@@ -45,7 +44,6 @@ export default function Page() {
           <div className="flex flex-row justify-between w-full gap-4">
             <div>
               <Image
-                unoptimized
                 width={688}
                 height={440}
                 className={"rounded-md"}
@@ -63,7 +61,6 @@ export default function Page() {
 
             <div>
               <Image
-                unoptimized
                 width={688}
                 height={440}
                 className={"rounded-md"}
