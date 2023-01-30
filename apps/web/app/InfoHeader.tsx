@@ -12,7 +12,7 @@ async function InfoHeader() {
   if (!shouldShowHeader) return <div className="h-4"></div>;
   return (
     <div className="flex flex-col justify-center h-[48px] text-xl text-[#c8102e] bg-white px-11">
-      <p className="font-semibold text-center">
+      <p className="font-bold text-center">
         IN-STORE & CURBSIDE PICKUP: shop online & pick up in store for free!
         Shop now
       </p>
