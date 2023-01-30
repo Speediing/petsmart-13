@@ -10,7 +10,7 @@ async function ButtonArray() {
 
   const buttonArrayReversed = await get("buttonArrayReversed");
   return (
-    <div className="flex flex-row justify-center gap-4 mt-5">
+    <div className="flex flex-row justify-center gap-4 mt-2">
       {buttonArrayReversed[country] && (
         <button className="bg-white h-[40px] w-[130px] rounded-md text-[#206ef6] px-4">
           Shop Now

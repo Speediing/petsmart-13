@@ -10,7 +10,7 @@ export const revalidate = 0;
 const roboto = Karla({
   weight: ["400", "500", "700", "600", "800"],
   subsets: ["latin"],
-  variable: "--font-karla",
+  variable: "--font-Karla",
 });
 export default function Page() {
   return (
@@ -40,7 +40,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center ">
+      <div className="flex flex-row justify-center text-black">
         <div className="flex flex-col my-4 w-full max-w-[1240px]">
           <div className="flex flex-row justify-between w-full gap-4">
             <div>
@@ -55,7 +55,7 @@ export default function Page() {
                 }
               />
               <p
-                className={`pb-2 leading-tight align-middle text-center mt-2  font-bold `}
+                className={`pb-2 leading-tight align-middle text-center mt-1 text-[17px] font-medium `}
               >
                 Shop all Dog Dental Care
               </p>
@@ -73,7 +73,7 @@ export default function Page() {
                 }
               />
               <p
-                className={`pb-2  leading-tight align-middle text-center mt-2   font-bold `}
+                className={`pb-2  leading-tight align-middle text-center mt-1  text-[17px] font-medium `}
               >
                 Shop all Cat Dental Care
               </p>
