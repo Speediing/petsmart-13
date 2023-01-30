@@ -10,7 +10,7 @@ export const revalidate = 0;
 
 export default function Page() {
   return (
-    <div className="max-[1240px]">
+    <div className="w-full max-[1240px]">
       {/* @ts-expect-error Server Component */}
       <InfoHeader />
       <div className="flex flex-row justify-center ">
@@ -36,60 +36,43 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col my-12">
-        <h2
-          className={`pb-2 leading-tight align-middle text-center text-3xl  font-bold `}
-        >
-          Find Your Next Crockpot® Product
-        </h2>
-        <div className="flex flex-row justify-center mx-6">
-          <div>
-            <Image
-              unoptimized
-              width={688}
-              height={440}
-              alt=""
-              src={
-                "https://s7d9.scene7.com/is/image/NewellRubbermaid/09012022-CrockpotHomepage-02-Slow-01?fmt=jpeg"
-              }
-            />
-            <p
-              className={`pb-2 leading-tight align-middle text-center mt-12 ftext-2xl  font-bold `}
-            >
-              Slow Cookers
-            </p>
-            <p className="text-center">
-              Simmer the flavor into your home-cooked food.
-            </p>
-            <div className="flex flex-row justify-center mt-6">
-              <button className="w-[179px] bg-white h-[50px] rounded-md px-4 border-[#585a5c] text-[#585a5c] border">
-                Go Now
-              </button>
+      <div className="flex flex-row justify-center ">
+        <div className="flex flex-col my-4 w-full max-w-[1240px]">
+          <div className="flex flex-row justify-between w-full gap-4">
+            <div>
+              <Image
+                unoptimized
+                width={688}
+                height={440}
+                className={"rounded-md"}
+                alt=""
+                src={
+                  "https://s7d2.scene7.com/is/image/PetSmart/WEB-23-1658608-CA_February_WELLNESS_DENTAL_card1_1208x515_DT"
+                }
+              />
+              <p
+                className={`pb-2 leading-tight align-middle text-center mt-2  font-bold `}
+              >
+                Shop all Dog Dental Care
+              </p>
             </div>
-          </div>
 
-          <div>
-            <Image
-              unoptimized
-              width={688}
-              height={440}
-              alt=""
-              src={
-                "https://s7d9.scene7.com/is/image/NewellRubbermaid/09012022-CrockpotHomepage-02-LunchCrock-01?fmt=jpeg"
-              }
-            />
-            <p
-              className={`pb-2  leading-tight align-middle text-center mt-12  text-2xl  font-bold `}
-            >
-              Lunch Crock®
-            </p>
-            <p className="text-center">
-              The portable food warmer that makes any spot a lunch spot.
-            </p>
-            <div className="flex flex-row justify-center mt-6">
-              <button className="w-[179px] bg-white h-[50px] rounded-md px-4 border-[#585a5c] text-[#585a5c] border">
-                Go Now
-              </button>
+            <div>
+              <Image
+                unoptimized
+                width={688}
+                height={440}
+                className={"rounded-md"}
+                alt=""
+                src={
+                  "https://s7d2.scene7.com/is/image/PetSmart/WEB-23-1658608-CA_February_WELLNESS_DENTAL_card2_1208x515_DT"
+                }
+              />
+              <p
+                className={`pb-2  leading-tight align-middle text-center mt-2   font-bold `}
+              >
+                Shop all Cat Dental Care
+              </p>
             </div>
           </div>
         </div>

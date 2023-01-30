@@ -155,7 +155,7 @@ export default function RootLayout({ children }: any) {
         <div>{children}</div>
         <footer className="py-20 bg-[#f4f5f8] px-32  text-black">
           <img
-            src="https://www.crock-pot.com/on/demandware.static/Sites-crockpot-Site/-/default/dw61095556/images/brand-logo.svg"
+            src="https://www.petsmart.ca/on/demandware.static/Sites-PetSmart_CA-Site/-/default/dw0e91e254/images/petsmart-logo.png"
             width="164"
             height="37"
             alt="intuit"
