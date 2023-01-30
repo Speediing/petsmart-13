@@ -9,7 +9,7 @@ async function InfoHeader() {
   console.log(headersList.get("x-vercel-ip-country"));
 
   const shouldShowHeader = await get("shouldShowBanner");
-  if (!shouldShowHeader) return <div></div>;
+  if (!shouldShowHeader) return <div className="h-4"></div>;
   return (
     <div className="flex flex-col justify-center h-[48px] text-xl text-[#c8102e] bg-white px-11">
       <p className="font-semibold text-center">

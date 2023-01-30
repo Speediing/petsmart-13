@@ -6,9 +6,10 @@ async function ButtonArray() {
   // initialize returns a promise which always resolves
   const headersList = headers();
   const ip = headersList.get("x-real-ip");
-  const country = headersList.get("x-vercel-ip-country") || "ca";
+  const country = headersList.get("x-vercel-ip-country") || "CA";
 
   const buttonArrayReversed = await get("buttonArrayReversed");
+
   return (
     <div className="flex flex-row justify-center gap-4 mt-2">
       {buttonArrayReversed[country] && (
